@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <style>
+        body {
+            background-color: yellow;
+            font-size: 18px;
+            font-weight: 200;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url("https://wallpaper.dog/large/10899370.jpg");
+            background-position-x: center;
+
+
+        }
+
+        .forms {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-direction: column;
+            margin-top: 200px;
+        }
+
+        .forms2 {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        #Log {
+            margin: 10px;
+            margin-right: 5px;
+            font-size: 17px;
+            padding: 2px 32px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        #forget {
+            margin-top: 10px;
+            margin-left: 32px;
+            padding-top: 4px;
+
+        }
+
+        #username {
+            padding: 10px 35px;
+            font-size: 15px;
+            border-radius: 5px;
+
+        }
+
+        #password {
+
+            margin-top: 5px;
+            padding: 10px 35px;
+            font-size: 15px;
+            border-radius: 5px;
+
+        }
+
+        #sign {
+            float: right;
+            color: black;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 8px;
+
+        }
+
+        sign:hover {
+            color: blue;
+        }
+
+        #shoe {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            font-size: 35px;
+            font-weight: 500;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(43, 92, 226);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <form action="">
+        <div>
+            <input type="submit" value="Sign up" id="sign">
+        </div>
+
+    </form>
+
+
+
+
+    <form action="backend.php">
+        <span id="shoe">SHOE KART</span>
+
+
+        <div class="forms">
+
+
+            <input type="text" name="myusername" id="username" placeholder="username or email address">
+
+
+            <input type="password" name="mypassword" id="password" placeholder="password">
+
+
+            <div class="forms2">
+
+                <a href="home.html" id="Log">Log in</a>
+                <a href="forget.html" id="forget">forget password</a>
+            </div>
+
+
+        </div>
+
+
+
+    </form>
+    </span>
+
+
+</body>
+
+</html>
